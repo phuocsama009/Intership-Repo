@@ -13,3 +13,4 @@ C:\Users\DELL\Desktop\Internship\Intership_Repo\ExerciseS1\ExerciseS1\obj\Debug\
 C:\Users\DELL\Desktop\Internship\Intership_Repo\ExerciseS1\ExerciseS1\obj\Debug\net5.0\ref\ExerciseS1.dll
 C:\Users\DELL\Desktop\Internship\Intership_Repo\ExerciseS1\ExerciseS1\obj\Debug\net5.0\ExerciseS1.pdb
 C:\Users\DELL\Desktop\Internship\Intership_Repo\ExerciseS1\ExerciseS1\obj\Debug\net5.0\ExerciseS1.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Internship\Intership_Repo\ExerciseS1\ExerciseS1\obj\Debug\net5.0\ExerciseS1.csproj.AssemblyReference.cache

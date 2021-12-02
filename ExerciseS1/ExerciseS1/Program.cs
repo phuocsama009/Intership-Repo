@@ -1,4 +1,5 @@
-﻿using ExerciseS1.FourOOPConcepts;
+﻿using ExerciseS1.AsyncTask;
+using ExerciseS1.FourOOPConcepts;
 using ExerciseS1.QueryCollectionbyLINQ;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,12 @@ namespace ExerciseS1
     {
         static void Main(string[] args)
         {
+            #region Async task
+            Sample1 sample1 = new Sample1();
+            sample1.Method1();
+            sample1.Method2();
+            #endregion
+
             #region Query Collection by LINQ
             var brands = new List<Brand>()
             {
@@ -33,7 +40,7 @@ namespace ExerciseS1
             //query.ProductColorPrice(products);
             //query.OrderByPrice(products);
             //query.GroupByPrice(products);
-            query.ProductByBrand(products, brands);
+            //query.ProductByBrand(products, brands);
 
             Console.WriteLine();
             #endregion
