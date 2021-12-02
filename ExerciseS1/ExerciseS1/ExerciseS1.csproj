@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AsyncTaskLibrary\AsyncTaskLibrary.csproj" />
+    <ProjectReference Include="..\FourOOPConceptsLibrary\FourOOPConceptsLibrary.csproj" />
+    <ProjectReference Include="..\QueryCollectionbyLINQ\QueryCollectionbyLINQLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciseS1.AsyncTask
+namespace AsyncTaskLibrary
 {
-    class Sample1
+    public class Sample1
     {
         public async void Method1()
         {

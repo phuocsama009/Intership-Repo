@@ -1,6 +1,6 @@
-﻿using ExerciseS1.AsyncTask;
-using ExerciseS1.FourOOPConcepts;
-using ExerciseS1.QueryCollectionbyLINQ;
+﻿using AsyncTaskLibrary;
+using FourOOPConceptsLibrary;
+using QueryCollectionbyLINQLibrary;
 using System;
 using System.Collections.Generic;
 
@@ -36,22 +36,22 @@ namespace ExerciseS1
             };
 
             Query query = new Query();
-            //query.ProductPriceSmaller900(products);
-            //query.ProductColorPrice(products);
-            //query.OrderByPrice(products);
-            //query.GroupByPrice(products);
-            //query.ProductByBrand(products, brands);
+            query.ProductPriceSmaller900(products);
+            query.ProductColorPrice(products);
+            query.OrderByPrice(products);
+            query.GroupByPrice(products);
+            query.ProductByBrand(products, brands);
 
             Console.WriteLine();
             #endregion
 
             #region Four OOP Concepts
-            //Officer officer = new Officer("Nguyen Van Teo", new DateTime(2000, 07, 07), 6);
-            //Staff staff = new Staff("Nguyen Thanh Truc", new DateTime(2001, 09, 09), "Part time", 28);
+            Officer officer = new Officer("Nguyen Van Teo", new DateTime(2000, 07, 07), 6);
+            Staff staff = new Staff("Nguyen Thanh Truc", new DateTime(2001, 09, 09), "Part time", 28);
 
-            //officer.Display();
-            //Console.WriteLine();
-            //staff.Display();
+            officer.Display();
+            Console.WriteLine();
+            staff.Display();
             #endregion
         }
     }

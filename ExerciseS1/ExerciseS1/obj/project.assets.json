@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "AsyncTaskLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AsyncTaskLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AsyncTaskLibrary.dll": {}
+        }
+      },
+      "FourOOPConceptsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FourOOPConceptsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FourOOPConceptsLibrary.dll": {}
+        }
+      },
+      "QueryCollectionbyLINQLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/QueryCollectionbyLINQLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QueryCollectionbyLINQLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AsyncTaskLibrary/1.0.0": {
+      "type": "project",
+      "path": "../AsyncTaskLibrary/AsyncTaskLibrary.csproj",
+      "msbuildProject": "../AsyncTaskLibrary/AsyncTaskLibrary.csproj"
+    },
+    "FourOOPConceptsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../FourOOPConceptsLibrary/FourOOPConceptsLibrary.csproj",
+      "msbuildProject": "../FourOOPConceptsLibrary/FourOOPConceptsLibrary.csproj"
+    },
+    "QueryCollectionbyLINQLibrary/1.0.0": {
+      "type": "project",
+      "path": "../QueryCollectionbyLINQ/QueryCollectionbyLINQLibrary.csproj",
+      "msbuildProject": "../QueryCollectionbyLINQ/QueryCollectionbyLINQLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "AsyncTaskLibrary >= 1.0.0",
+      "FourOOPConceptsLibrary >= 1.0.0",
+      "QueryCollectionbyLINQLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\DELL\\.nuget\\packages\\": {},
@@ -38,7 +89,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DELL\\Desktop\\Internship\\Intership_Repo\\ExerciseS1\\AsyncTaskLibrary\\AsyncTaskLibrary.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Internship\\Intership_Repo\\ExerciseS1\\AsyncTaskLibrary\\AsyncTaskLibrary.csproj"
+            },
+            "C:\\Users\\DELL\\Desktop\\Internship\\Intership_Repo\\ExerciseS1\\FourOOPConceptsLibrary\\FourOOPConceptsLibrary.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Internship\\Intership_Repo\\ExerciseS1\\FourOOPConceptsLibrary\\FourOOPConceptsLibrary.csproj"
+            },
+            "C:\\Users\\DELL\\Desktop\\Internship\\Intership_Repo\\ExerciseS1\\QueryCollectionbyLINQ\\QueryCollectionbyLINQLibrary.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Internship\\Intership_Repo\\ExerciseS1\\QueryCollectionbyLINQ\\QueryCollectionbyLINQLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

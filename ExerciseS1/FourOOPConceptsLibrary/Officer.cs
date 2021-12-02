@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ExerciseS1.FourOOPConcepts
+namespace FourOOPConceptsLibrary
 {
-    class Officer : Person
+    public class Officer : Person
     {
         const int basicSalary = 1500000;
         public int TimeOnSite { get; set; }

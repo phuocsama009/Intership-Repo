@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ExerciseS1.QueryCollectionbyLINQ
+namespace QueryCollectionbyLINQLibrary
 {
-    class Query
+    public class Query
     {
         // In ra các sản phẩm có giá bé hơn 900
         public void ProductPriceSmaller900(List<Product> products)

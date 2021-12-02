@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ExerciseS1.FourOOPConcepts
+namespace FourOOPConceptsLibrary
 {
-    class Staff : Person
+    public class Staff : Person
     {
         public string Position { get; set; }
         public int WorkDay { get; set; }
